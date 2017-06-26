@@ -1,0 +1,28 @@
+---
+layout: page
+title: Menneskene
+---
+<p>
+	Klubben er tuftet på dugnad og sammen med dyktige foreldre er det disse som for tiden limer sammen klubben som trenere og styremedlemmer.
+</p>
+<div id="columns">
+	{% for member in site.menneskene %}
+	<figure>
+		<img src="images/menneskene/{{ member.thumbnail }}" alt="" />
+		<figcaption>
+			<header>
+				<h5>{{ member.navn }}</h5>
+				<p>{{ member.tittel }}</p>
+			</header>
+			{{ member.description | markdownify}}
+
+			<ul class="icons">
+		    {% for socloc in member.social %}
+		    <li><a href="{{ socloc.url }}" class="icon fa-{{ socloc.title }}"
+		           ><span class="label">{{ socloc.title }}</span></a></li>
+		    {% endfor %}
+		  </ul>
+	</figcaption>
+	</figure>
+	{% endfor %}
+</div>
