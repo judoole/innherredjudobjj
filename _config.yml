@@ -8,7 +8,7 @@ owner: IJB # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: ijudobjj@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://innherredjudobjj.no" # the base hostname & protocol for your site
+url: "http://www.innherredjudobjj.no" # the base hostname & protocol for your site
 collections:
   - menneskene
 social:
