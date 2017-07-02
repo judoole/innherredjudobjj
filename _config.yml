@@ -1,54 +1,25 @@
-# Welcome to Jekyll!
-#
-
-# Site settings
+---
 title: Innherred Judo og BJJ
-description: Opplev morsom og god trening for alle
-owner: IJB # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: ijudobjj@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.innherredjudobjj.no" # the base hostname & protocol for your site
+timezone: UTC
 collections:
-  - menneskene
+  menneskene:
+    title: Menneskene
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Opplev morsom og god trening for alle
+owner: IJB
+first_published: 2016
+email: ijudobjj@gmail.com
+baseurl: ''
+url: http://www.innherredjudobjj.no
 social:
   facebook-official: https://www.facebook.com/innherredjudobjj/
-  email: /index.html#kontakt
-  #flickr:
+  email: "/index.html#kontakt"
   instagram: http://instagram.com/innherredjudoogbjj
   youtube-square: https://www.youtube.com/channel/UCYglIAHSwPWnh_Ipse9NyBg
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
-
-# Build settings
 markdown: kramdown
-#sass:
-#  style: compressed
