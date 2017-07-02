@@ -5,7 +5,7 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="fb:app_id" content="613262428845243">
   <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url}}">
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta property="og:image" content="http://www.innherredjudobjj.no/images/cropped_travis_fight.jpg">
   <!--[if lte IE 8]><script src="{{ "/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
