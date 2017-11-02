@@ -7,3 +7,4 @@ thumbnail: batman.png
 alt: Merete Nordgård Jørgensen
 description: Merete er medlem av styret i IJB.
 ---
+
